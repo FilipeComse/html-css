@@ -24,7 +24,13 @@ Grandes telas: acima de 1200px
     }
 
     main {
+        width: 90vw;
         border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Essa impressão doi deita através dp site wwww.cursoemvideo.com';
+        text-decoration: overline;
     }
 
     main h1 {
